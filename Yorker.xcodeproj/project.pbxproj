@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51EDDBB518C56C69009172B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBB418C56C68009172B6 /* Foundation.framework */; };
+		51EDDBB718C56C69009172B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBB618C56C69009172B6 /* CoreGraphics.framework */; };
+		51EDDBB918C56C69009172B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBB818C56C69009172B6 /* UIKit.framework */; };
+		51EDDBBF18C56C69009172B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51EDDBBD18C56C69009172B6 /* InfoPlist.strings */; };
+		51EDDBC118C56C69009172B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EDDBC018C56C69009172B6 /* main.m */; };
+		51EDDBC518C56C69009172B6 /* FlyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EDDBC418C56C69009172B6 /* FlyAppDelegate.m */; };
+		51EDDBC818C56C69009172B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EDDBC618C56C69009172B6 /* Main.storyboard */; };
+		51EDDBCB18C56C69009172B6 /* FlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EDDBCA18C56C69009172B6 /* FlyViewController.m */; };
+		51EDDBCD18C56C69009172B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EDDBCC18C56C69009172B6 /* Images.xcassets */; };
+		51EDDBD418C56C69009172B6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBD318C56C69009172B6 /* XCTest.framework */; };
+		51EDDBD518C56C69009172B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBB418C56C68009172B6 /* Foundation.framework */; };
+		51EDDBD618C56C69009172B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBB818C56C69009172B6 /* UIKit.framework */; };
+		51EDDBDE18C56C69009172B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51EDDBDC18C56C69009172B6 /* InfoPlist.strings */; };
+		51EDDBE018C56C69009172B6 /* YorkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EDDBDF18C56C69009172B6 /* YorkerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51EDDBD718C56C69009172B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51EDDBA918C56C68009172B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EDDBB018C56C68009172B6;
+			remoteInfo = Yorker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51EDDBB118C56C68009172B6 /* Yorker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yorker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EDDBB418C56C68009172B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51EDDBB618C56C69009172B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51EDDBB818C56C69009172B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51EDDBBC18C56C69009172B6 /* Yorker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yorker-Info.plist"; sourceTree = "<group>"; };
+		51EDDBBE18C56C69009172B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51EDDBC018C56C69009172B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51EDDBC218C56C69009172B6 /* Yorker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yorker-Prefix.pch"; sourceTree = "<group>"; };
+		51EDDBC318C56C69009172B6 /* FlyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyAppDelegate.h; sourceTree = "<group>"; };
+		51EDDBC418C56C69009172B6 /* FlyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyAppDelegate.m; sourceTree = "<group>"; };
+		51EDDBC718C56C69009172B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51EDDBC918C56C69009172B6 /* FlyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyViewController.h; sourceTree = "<group>"; };
+		51EDDBCA18C56C69009172B6 /* FlyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyViewController.m; sourceTree = "<group>"; };
+		51EDDBCC18C56C69009172B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51EDDBD218C56C69009172B6 /* YorkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YorkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EDDBD318C56C69009172B6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		51EDDBDB18C56C69009172B6 /* YorkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YorkerTests-Info.plist"; sourceTree = "<group>"; };
+		51EDDBDD18C56C69009172B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51EDDBDF18C56C69009172B6 /* YorkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YorkerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51EDDBAE18C56C68009172B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDDBB718C56C69009172B6 /* CoreGraphics.framework in Frameworks */,
+				51EDDBB918C56C69009172B6 /* UIKit.framework in Frameworks */,
+				51EDDBB518C56C69009172B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EDDBCF18C56C69009172B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDDBD418C56C69009172B6 /* XCTest.framework in Frameworks */,
+				51EDDBD618C56C69009172B6 /* UIKit.framework in Frameworks */,
+				51EDDBD518C56C69009172B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51EDDBA818C56C68009172B6 = {
+			isa = PBXGroup;
+			children = (
+				51EDDBBA18C56C69009172B6 /* Yorker */,
+				51EDDBD918C56C69009172B6 /* YorkerTests */,
+				51EDDBB318C56C68009172B6 /* Frameworks */,
+				51EDDBB218C56C68009172B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51EDDBB218C56C68009172B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51EDDBB118C56C68009172B6 /* Yorker.app */,
+				51EDDBD218C56C69009172B6 /* YorkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51EDDBB318C56C68009172B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51EDDBB418C56C68009172B6 /* Foundation.framework */,
+				51EDDBB618C56C69009172B6 /* CoreGraphics.framework */,
+				51EDDBB818C56C69009172B6 /* UIKit.framework */,
+				51EDDBD318C56C69009172B6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EDDBBA18C56C69009172B6 /* Yorker */ = {
+			isa = PBXGroup;
+			children = (
+				51EDDBC318C56C69009172B6 /* FlyAppDelegate.h */,
+				51EDDBC418C56C69009172B6 /* FlyAppDelegate.m */,
+				51EDDBC618C56C69009172B6 /* Main.storyboard */,
+				51EDDBC918C56C69009172B6 /* FlyViewController.h */,
+				51EDDBCA18C56C69009172B6 /* FlyViewController.m */,
+				51EDDBCC18C56C69009172B6 /* Images.xcassets */,
+				51EDDBBB18C56C69009172B6 /* Supporting Files */,
+			);
+			path = Yorker;
+			sourceTree = "<group>";
+		};
+		51EDDBBB18C56C69009172B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51EDDBBC18C56C69009172B6 /* Yorker-Info.plist */,
+				51EDDBBD18C56C69009172B6 /* InfoPlist.strings */,
+				51EDDBC018C56C69009172B6 /* main.m */,
+				51EDDBC218C56C69009172B6 /* Yorker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51EDDBD918C56C69009172B6 /* YorkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				51EDDBDF18C56C69009172B6 /* YorkerTests.m */,
+				51EDDBDA18C56C69009172B6 /* Supporting Files */,
+			);
+			path = YorkerTests;
+			sourceTree = "<group>";
+		};
+		51EDDBDA18C56C69009172B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51EDDBDB18C56C69009172B6 /* YorkerTests-Info.plist */,
+				51EDDBDC18C56C69009172B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51EDDBB018C56C68009172B6 /* Yorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EDDBE318C56C69009172B6 /* Build configuration list for PBXNativeTarget "Yorker" */;
+			buildPhases = (
+				51EDDBAD18C56C68009172B6 /* Sources */,
+				51EDDBAE18C56C68009172B6 /* Frameworks */,
+				51EDDBAF18C56C68009172B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yorker;
+			productName = Yorker;
+			productReference = 51EDDBB118C56C68009172B6 /* Yorker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51EDDBD118C56C69009172B6 /* YorkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EDDBE618C56C69009172B6 /* Build configuration list for PBXNativeTarget "YorkerTests" */;
+			buildPhases = (
+				51EDDBCE18C56C69009172B6 /* Sources */,
+				51EDDBCF18C56C69009172B6 /* Frameworks */,
+				51EDDBD018C56C69009172B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51EDDBD818C56C69009172B6 /* PBXTargetDependency */,
+			);
+			name = YorkerTests;
+			productName = YorkerTests;
+			productReference = 51EDDBD218C56C69009172B6 /* YorkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51EDDBA918C56C68009172B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Fly;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SCU;
+				TargetAttributes = {
+					51EDDBD118C56C69009172B6 = {
+						TestTargetID = 51EDDBB018C56C68009172B6;
+					};
+				};
+			};
+			buildConfigurationList = 51EDDBAC18C56C68009172B6 /* Build configuration list for PBXProject "Yorker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51EDDBA818C56C68009172B6;
+			productRefGroup = 51EDDBB218C56C68009172B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51EDDBB018C56C68009172B6 /* Yorker */,
+				51EDDBD118C56C69009172B6 /* YorkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51EDDBAF18C56C68009172B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDDBCD18C56C69009172B6 /* Images.xcassets in Resources */,
+				51EDDBBF18C56C69009172B6 /* InfoPlist.strings in Resources */,
+				51EDDBC818C56C69009172B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EDDBD018C56C69009172B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDDBDE18C56C69009172B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51EDDBAD18C56C68009172B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDDBC518C56C69009172B6 /* FlyAppDelegate.m in Sources */,
+				51EDDBCB18C56C69009172B6 /* FlyViewController.m in Sources */,
+				51EDDBC118C56C69009172B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EDDBCE18C56C69009172B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDDBE018C56C69009172B6 /* YorkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51EDDBD818C56C69009172B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51EDDBB018C56C68009172B6 /* Yorker */;
+			targetProxy = 51EDDBD718C56C69009172B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51EDDBBD18C56C69009172B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EDDBBE18C56C69009172B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51EDDBC618C56C69009172B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EDDBC718C56C69009172B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51EDDBDC18C56C69009172B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EDDBDD18C56C69009172B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51EDDBE118C56C69009172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51EDDBE218C56C69009172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EDDBE418C56C69009172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yorker/Yorker-Prefix.pch";
+				INFOPLIST_FILE = "Yorker/Yorker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51EDDBE518C56C69009172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yorker/Yorker-Prefix.pch";
+				INFOPLIST_FILE = "Yorker/Yorker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51EDDBE718C56C69009172B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yorker.app/Yorker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yorker/Yorker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YorkerTests/YorkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		51EDDBE818C56C69009172B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yorker.app/Yorker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Yorker/Yorker-Prefix.pch";
+				INFOPLIST_FILE = "YorkerTests/YorkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51EDDBAC18C56C68009172B6 /* Build configuration list for PBXProject "Yorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EDDBE118C56C69009172B6 /* Debug */,
+				51EDDBE218C56C69009172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EDDBE318C56C69009172B6 /* Build configuration list for PBXNativeTarget "Yorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EDDBE418C56C69009172B6 /* Debug */,
+				51EDDBE518C56C69009172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51EDDBE618C56C69009172B6 /* Build configuration list for PBXNativeTarget "YorkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EDDBE718C56C69009172B6 /* Debug */,
+				51EDDBE818C56C69009172B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51EDDBA918C56C68009172B6 /* Project object */;
+}
