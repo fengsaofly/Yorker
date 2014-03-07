@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlyViewController : UIViewController
+
+@interface FlyViewController : UIViewController<UIScrollViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate>
 
 @end
