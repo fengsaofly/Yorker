@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51204EE918D007AC0017B901 /* FlyActivityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51204EE818D007AC0017B901 /* FlyActivityDetailController.m */; };
+		51204EEB18D1525D0017B901 /* basketball_activity_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 51204EEA18D1525D0017B901 /* basketball_activity_bg.png */; };
 		513F6D4518C6C8B500053B4F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513F6D4018C6C8B500053B4F /* DetailViewController.m */; };
 		513F6D4618C6C8B500053B4F /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 513F6D4218C6C8B500053B4F /* Cell.m */; };
 		513F6D4718C6C8B500053B4F /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 513F6D4418C6C8B500053B4F /* CustomCellBackground.m */; };
@@ -26,6 +28,8 @@
 		513F6D6718C6D21B00053B4F /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 513F6D6318C6D21B00053B4F /* location.png */; };
 		513F6D6818C6D21B00053B4F /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 513F6D6418C6D21B00053B4F /* user.png */; };
 		513F6D6B18C755C100053B4F /* FlyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 513F6D6A18C755C100053B4F /* FlyTableViewController.m */; };
+		51679C8618EA7B9400B2A15E /* FlyActivityDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51679C8518EA7B9400B2A15E /* FlyActivityDetailCell.m */; };
+		51679C8818EA7BB900B2A15E /* FlyActivityDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51679C8718EA7BB900B2A15E /* FlyActivityDetailCell.xib */; };
 		51E9BB7618C9AFA500CD7F79 /* FlySecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E9BB7518C9AFA500CD7F79 /* FlySecondTableViewController.m */; };
 		51E9BB7918C9B33E00CD7F79 /* FlyActivityListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E9BB7818C9B33E00CD7F79 /* FlyActivityListCell.m */; };
 		51EDDBB518C56C69009172B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EDDBB418C56C68009172B6 /* Foundation.framework */; };
@@ -68,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51204EE718D007AC0017B901 /* FlyActivityDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyActivityDetailController.h; sourceTree = "<group>"; };
+		51204EE818D007AC0017B901 /* FlyActivityDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyActivityDetailController.m; sourceTree = "<group>"; };
+		51204EEA18D1525D0017B901 /* basketball_activity_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball_activity_bg.png; sourceTree = "<group>"; };
 		513F6D3F18C6C8B500053B4F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		513F6D4018C6C8B500053B4F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		513F6D4118C6C8B500053B4F /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
@@ -91,6 +98,9 @@
 		513F6D6418C6D21B00053B4F /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		513F6D6918C755C100053B4F /* FlyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyTableViewController.h; sourceTree = "<group>"; };
 		513F6D6A18C755C100053B4F /* FlyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyTableViewController.m; sourceTree = "<group>"; };
+		51679C8418EA7B9400B2A15E /* FlyActivityDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyActivityDetailCell.h; sourceTree = "<group>"; };
+		51679C8518EA7B9400B2A15E /* FlyActivityDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyActivityDetailCell.m; sourceTree = "<group>"; };
+		51679C8718EA7BB900B2A15E /* FlyActivityDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlyActivityDetailCell.xib; sourceTree = "<group>"; };
 		51E9BB7418C9AFA500CD7F79 /* FlySecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlySecondTableViewController.h; sourceTree = "<group>"; };
 		51E9BB7518C9AFA500CD7F79 /* FlySecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlySecondTableViewController.m; sourceTree = "<group>"; };
 		51E9BB7718C9B33E00CD7F79 /* FlyActivityListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyActivityListCell.h; sourceTree = "<group>"; };
@@ -232,12 +242,17 @@
 				513F6D6A18C755C100053B4F /* FlyTableViewController.m */,
 				51E9BB7418C9AFA500CD7F79 /* FlySecondTableViewController.h */,
 				51E9BB7518C9AFA500CD7F79 /* FlySecondTableViewController.m */,
+				51204EE718D007AC0017B901 /* FlyActivityDetailController.h */,
+				51204EE818D007AC0017B901 /* FlyActivityDetailController.m */,
 				513F6D3F18C6C8B500053B4F /* DetailViewController.h */,
 				513F6D4018C6C8B500053B4F /* DetailViewController.m */,
 				513F6D4118C6C8B500053B4F /* Cell.h */,
 				513F6D4218C6C8B500053B4F /* Cell.m */,
 				51E9BB7718C9B33E00CD7F79 /* FlyActivityListCell.h */,
 				51E9BB7818C9B33E00CD7F79 /* FlyActivityListCell.m */,
+				51679C8418EA7B9400B2A15E /* FlyActivityDetailCell.h */,
+				51679C8518EA7B9400B2A15E /* FlyActivityDetailCell.m */,
+				51679C8718EA7BB900B2A15E /* FlyActivityDetailCell.xib */,
 				513F6D4318C6C8B500053B4F /* CustomCellBackground.h */,
 				513F6D4418C6C8B500053B4F /* CustomCellBackground.m */,
 				51EDDBCC18C56C69009172B6 /* Images.xcassets */,
@@ -298,6 +313,7 @@
 		51EDDC0618C58305009172B6 /* testPages */ = {
 			isa = PBXGroup;
 			children = (
+				51204EEA18D1525D0017B901 /* basketball_activity_bg.png */,
 				51EDDBFE18C582FE009172B6 /* background1.png */,
 				51EDDBFF18C582FE009172B6 /* background2.png */,
 				51EDDC0018C582FE009172B6 /* background3.png */,
@@ -408,8 +424,10 @@
 				513F6D5E18C6CB9200053B4F /* 10.JPG in Resources */,
 				51EDDBC818C56C69009172B6 /* Main.storyboard in Resources */,
 				51EDDBF718C57851009172B6 /* dot3.png in Resources */,
+				51204EEB18D1525D0017B901 /* basketball_activity_bg.png in Resources */,
 				513F6D6718C6D21B00053B4F /* location.png in Resources */,
 				513F6D6518C6D21B00053B4F /* calendar.png in Resources */,
+				51679C8818EA7BB900B2A15E /* FlyActivityDetailCell.xib in Resources */,
 				513F6D6818C6D21B00053B4F /* user.png in Resources */,
 				51EDDBED18C56FA6009172B6 /* Default.png in Resources */,
 				51EDDBF518C57851009172B6 /* dot1.png in Resources */,
@@ -437,6 +455,7 @@
 			files = (
 				513F6D4718C6C8B500053B4F /* CustomCellBackground.m in Sources */,
 				513F6D4618C6C8B500053B4F /* Cell.m in Sources */,
+				51679C8618EA7B9400B2A15E /* FlyActivityDetailCell.m in Sources */,
 				51EDDBC518C56C69009172B6 /* FlyAppDelegate.m in Sources */,
 				513F6D6B18C755C100053B4F /* FlyTableViewController.m in Sources */,
 				51EDDBCB18C56C69009172B6 /* FlyViewController.m in Sources */,
@@ -444,6 +463,7 @@
 				513F6D4518C6C8B500053B4F /* DetailViewController.m in Sources */,
 				51E9BB7918C9B33E00CD7F79 /* FlyActivityListCell.m in Sources */,
 				51E9BB7618C9AFA500CD7F79 /* FlySecondTableViewController.m in Sources */,
+				51204EE918D007AC0017B901 /* FlyActivityDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
